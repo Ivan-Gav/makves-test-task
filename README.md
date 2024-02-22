@@ -1,5 +1,9 @@
 # Тестовое задание
 
+Деплой готового задания: [link]()
+
+![screenshot](src/assets/scrn.jpg)
+
 Установка зависимостей `npm install`
 
 Запуск проекта `npm run dev`
