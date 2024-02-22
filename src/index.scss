@@ -1,14 +1,35 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --bg-main: #e2e8f0;
+  --bg-menu: #ffffff;
+  --bg-hover: #f1f5f9;
+  --bg-active: #f0f2ff;
+  --txt-main: #576881;
+  --txt-hover: #000000;
+  --txt-active: #0023c4;
+  --font: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+  font-family: var(--font);
   line-height: 1.5;
   font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  background-color: var(--bg-main);
+  padding: 1rem;
+  height: 100%;
 }
