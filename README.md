@@ -1,6 +1,6 @@
 # Тестовое задание
 
-Деплой готового задания: [link]()
+Деплой готового задания: [link](https://ivan-gav.github.io/makves-test-task/)
 
 ![screenshot](src/assets/scrn.jpg)
 
